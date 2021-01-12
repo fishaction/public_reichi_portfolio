@@ -1,0 +1,191 @@
+body{
+    overflow-x: hidden;
+}
+.nav-content{
+    padding: 0 10px;
+}
+#sticky-nav{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+.header{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: url('../img/header2.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index:0;
+    overflow: hidden;
+}
+.header:before{
+    content: '';
+    background: inherit;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    z-index: -1;/*重なり順序を一番下にしておく*/
+}
+.catch-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.catch{
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.catch > h1{
+    font-size: 3.8rem;
+    margin-bottom: 12px;
+    letter-spacing: 1rem;
+    width: auto;
+}
+.catch > h2{
+    font-size: 2.2rem;
+    margin-bottom: 24px;
+    letter-spacing: 1.2rem;
+}
+.catch > *{
+    color: #ffffff;
+    margin: 0;
+    text-shadow: #444444 0 0 5px;
+}
+.about{
+    padding: 48px 0;
+    align-items: center;
+    justify-content: center;
+}
+.title-white{
+    text-align: center;
+    margin: 0;
+}
+.title-white > h1{
+    margin: 30px 0;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+}
+.title-white > h1:before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+.title{
+    text-align: center;
+    margin: 0;
+}
+.title > h1{
+    margin: 30px 0;
+    position: relative;
+    display: inline-block;
+    color: #333333;
+}
+.title > h1:before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #333333;
+    border-radius: 2px;
+}
+.color-white{
+    color: #ffffff;
+}
+.activity{
+    margin: auto;
+    display: flex;
+    width: 50%;
+    border-radius: 50%;
+    background: #ffffff;;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    visibility: hidden;
+    font-size: 2.625rem;
+}
+#acts{
+    margin: 30px 0;
+}
+#blog {
+    margin: 30px 0;
+}
+#blog > div > div{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog{
+    padding: 48px 0;
+}
+.blog-tmb{
+    padding: 0 8px;
+}
+.blog-tmb-desc{
+    text-align: left;
+    margin: 8px 0;
+}
+.access{
+    padding: 48px 0;
+}
+.footer{
+    width: 100%;
+    padding: 48px 0;
+    background: url("../img/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    z-index:0;
+    overflow: hidden;
+}
+.footer:before{
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    content: '';
+    background: inherit;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    z-index: -1;/*重なり順序を一番下にしておく*/
+  }
+.column > p{
+    color: #ffffff;
+    margin: 0;
+    text-shadow: #444444 0 0 5px;
+}
+#video-header{
+    height: 100vh;
+}
+.header-container{
+    max-width: 1200px;
+}

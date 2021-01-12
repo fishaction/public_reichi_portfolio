@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>黎地フイルム</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <style id="blur"></style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav style="display:none;" id="sticky-nav" class="uk-visible@s uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="nav-content uk-navbar-nav">
+                <li>黎地フイルム</li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="nav-content uk-navbar-nav">
+                <li><a href="#header-lk">TOP</a></li>
+                <li><a href="#about-lk">ABOUT</a></li>
+                <li><a href="#blog-lk">BLOG</a></li>
+                <li><a href="#access-lk">ACCESS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="uk-position-relative">
+        <div id="header-lk" class="header">
+            <div class="catch-wrapper uk-position-z-index uk-position-absolute">
+                <div id="catch" class="catch">
+                    <h1 class="uk-visible@s org-name">黎地フイルム</h1>
+                    <h2 class="uk-visible@s uk-margin-bottom org-name-eng">-Reiti Film-</h2>
+                    <h3 class="uk-visible@s uk-margin-top">Since 2020</h3>
+                    <h2 class="uk-hidden@s">黎地フイルム</h2>
+                    <h4 class="uk-hidden@s uk-margin-bottom">- Reiti Film -</h4>
+                    <h4 class="uk-hidden@s uk-margin-top">Since 2020</h4>
+                </div>
+            </div>
+            <div class="uk-position-relative">
+                <video class="uk-position-center uk-position-z-index uk-position-absolute" id="reiti_video" style="height: 50vh;" src="img/オープニング_Trim.mp4" autoplay></video>
+                <div id="blackout" style="background: #000000; width: 100vw; height: 100vh;"></div>
+            </div>
+        </div>
+        <div class="uk-visible@s uk-position-top">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="nav-content uk-navbar-nav">
+                        <li>黎地フイルム</li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="nav-content uk-navbar-nav">
+                        <li><a href="#header-lk">TOP</a></li>
+                        <li><a href="#about-lk">ABOUT</a></li>
+                        <li><a href="#blog-lk">BLOG</a></li>
+                        <li><a href="#access-lk">ACCESS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- PC用 -->
+    <div id="about-lk" class="about-lk uk-visible@s about uk-background-secondary">
+        <div class="title-white">
+            <h1>ABOUT</h1>
+        </div>
+        <div class="uk-container">
+            <div id="acts" class="acts uk-child-width-expand@s uk-text-center" uk-grid>
+                <div class="uk-padding-remove">
+                    <h3 class="color-white">何かの数字</h3>
+                    <div id="act-posts" class="activity">0</div>
+                </div>
+                <div class="uk-padding-remove">
+                    <h3 class="color-white">何かの数字</h3>
+                    <div id="act-tested" class="activity">0</div>
+                </div>
+                <div class="uk-padding-remove">
+                    <h3 class="color-white">メンバー</h3>
+                    <div id="act-actcount" class="activity">20</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- スマホ用 -->
+    <div id="about-lk-sm" class="about-lk uk-hidden@s about uk-background-secondary">
+        <div class="title-white">
+            <h1>ABOUT</h1>
+        </div>
+        <div class="uk-container">
+            <div id="acts" class="acts uk-child-width-expand@s uk-text-center" uk-grid>
+                <div class="uk-padding-remove">
+                    <h3 class="color-white">何かの数字</h3>
+                    <div id="act-posts" class="activity">0</div>
+                </div>
+                <div class="uk-padding-remove">
+                    <h3 class="color-white">何かの数字</h3>
+                    <div id="act-tested" class="activity">0</div>
+                </div>
+                <div class="uk-padding-remove">
+                    <h3 class="color-white">メンバー</h3>
+                    <div id="act-actcount" class="activity">20</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="blog-lk" class="blog uk-background-muted">
+        <div class="title">
+            <h1>BLOG</h1>
+        </div>
+        <div class="uk-container uk-padding-remove">
+            <div id="blog" class="uk-child-width-expand@s uk-text-center" uk-grid>
+                <div id="most-latest" class="blog-tmb">
+                    <div class="tmb-source" tmb="img/noimg.png">
+                    </div>
+                    <div class="blog-tmb-desc">
+                        <h3 class="uk-margin-remove"><a class="uk-link-heading" href="#">テスト記事</a></h3>
+                        <p class="uk-margin-remove"><i class="uk-margin-small-right fas fa-calendar-alt"></i>
+                        </p>
+                    </div>
+                </div>
+                <div id="second-latest" class="blog-tmb">
+                    <div class="tmb-source" tmb="img/noimg.png">
+                    </div>
+                    <div class="blog-tmb-desc">
+                        <h3 class="uk-margin-remove"><a class="uk-link-heading" href="#">テスト記事</a></h3>
+                        <p class="uk-margin-remove"><i class="uk-margin-small-right fas fa-calendar-alt"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-tmb">
+                    <div class="tmb-source" tmb="img/sample3.jpg">
+                    </div>
+                    <div class="blog-tmb-desc">
+                        <h3 class="uk-margin-remove"><a class="uk-link-heading" href="https://tek-news.com/">ほかのブログも見る </a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="access-lk" class="access uk-background-secondary">
+        <div class="title-white">
+            <h1>ACCESS</h1>
+        </div>
+        <div class="uk-container uk-text-center">
+            <p class="color-white">主な活動拠点の住所とか</p>
+            <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30827.606763806994!2d139.7071471587394!3d35.692929922929004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d2059b7fd4b%3A0xec61c68fe232efd2!2z5p2x5Lqs6YO95paw5a6_5Yy6!5e0!3m2!1sja!2sjp!4v1604786268197!5m2!1sja!2sjp"
+                    height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="uk-container">
+            <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                <div class="column">
+                    <p>黎地フイルム</p>
+                </div>
+                <div class="column">
+                    <p><a class="uk-link-reset" href="#header-lk">TOP</a></p>
+                    <p><a class="uk-link-reset" href="#about-lk">ABOUT</a></p>
+                    <p><a class="uk-link-reset" href="#blog-lk">BLOG</a></p>
+                    <p><a class="uk-link-reset" href="#access-lk">ACCESS</a></p>
+                </div>
+                <div class="column">
+                    <p><a class="uk-link-reset" href="#">TWITTER</a></p>
+                    <p><a class="uk-link-reset" href="#">FACEBOOK</a></p>
+                    <p><a class="uk-link-reset" href="#">INSTAGRAM</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
